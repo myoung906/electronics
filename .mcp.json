@@ -1,0 +1,61 @@
+{
+  "mcpServers": {
+    "latest-science-mcp": {
+      "command": "node",
+      "args": [
+        "/Users/workspace/electronics/mcp_server/node_modules/@futurelab-studio/latest-science-mcp/dist/server.js"
+      ],
+      "type": "stdio",
+      "env": {},
+      "disabled": true
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/Users/workspace/electronics"
+      ],
+      "type": "stdio"
+    },
+    "dbpia-search": {
+      "command": "node",
+      "args": [
+        "/Users/workspace/electronics/mcp_dbpia/index.js"
+      ],
+      "type": "stdio",
+      "env": {
+        "DBPIA_API_KEY": "321a016e1c9ddcb61b9b20bdd5ef4119"
+      },
+      "disabled": false,
+      "autoApprove": []
+    },
+    "context7": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@upstash/context7-mcp"
+      ],
+      "type": "stdio"
+    },
+    "fetch": {
+      "command": "/usr/local/bin/python3",
+      "args": [
+        "-m",
+        "mcp_server_fetch"
+      ],
+      "type": "stdio",
+      "disabled": true
+    },
+    "memory": {
+      "command": "node",
+      "args": [
+        "/Users/workspace/electronics/node_modules/@modelcontextprotocol/server-memory/dist/index.js"
+      ],
+      "type": "stdio",
+      "env": {
+        "MEMORY_FILE_PATH": "/Users/workspace/electronics/memory.json"
+      }
+    }
+  }
+}
