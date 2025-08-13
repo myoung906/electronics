@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 기본 색상 -->
+    <color name="primary_color">#2196F3</color>
+    <color name="primary_dark_color">#1976D2</color>
+    <color name="accent_color">#FF5722</color>
+    
+    <!-- 배경 색상 -->
+    <color name="background_primary">#FFFFFF</color>
+    <color name="background_secondary">#F5F5F5</color>
+    <color name="background_card">#FFFFFF</color>
+    
+    <!-- 텍스트 색상 -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_hint">#BDBDBD</color>
+    <color name="text_white">#FFFFFF</color>
+    
+    <!-- 상태 표시 색상 -->
+    <color name="status_connected">#4CAF50</color>
+    <color name="status_connecting">#FF9800</color>
+    <color name="status_disconnected">#9E9E9E</color>
+    <color name="status_error">#F44336</color>
+    <color name="status_warning">#FFC107</color>
+    
+    <!-- LED 색상 -->
+    <color name="led_red">#F44336</color>
+    <color name="led_green">#4CAF50</color>
+    <color name="led_off">#EEEEEE</color>
+    <color name="led_grid_background">#FAFAFA</color>
+    
+    <!-- 버튼 색상 -->
+    <color name="button_primary">#2196F3</color>
+    <color name="button_secondary">#757575</color>
+    <color name="button_success">#4CAF50</color>
+    <color name="button_danger">#F44336</color>
+    <color name="button_warning">#FF9800</color>
+    
+    <!-- 기타 UI 색상 -->
+    <color name="divider_color">#E0E0E0</color>
+    <color name="shadow_color">#40000000</color>
+    <color name="overlay_color">#80000000</color>
+    
+    <!-- 성능 표시 색상 -->
+    <color name="accuracy_excellent">#4CAF50</color>  <!-- 90% 이상 -->
+    <color name="accuracy_good">#8BC34A</color>       <!-- 70-90% -->
+    <color name="accuracy_fair">#FFC107</color>       <!-- 50-70% -->
+    <color name="accuracy_poor">#FF5722</color>       <!-- 50% 미만 -->
+    
+    <!-- 체크박스 및 라디오 색상 -->
+    <color name="checkbox_checked">#2196F3</color>
+    <color name="checkbox_unchecked">#BDBDBD</color>
+</resources>
